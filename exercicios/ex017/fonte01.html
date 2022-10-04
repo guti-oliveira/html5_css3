@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: monospace;
+            /*
+                Medidas Absolutas
+                cm, mm, in, px, pt, pc
+
+                Medidas Relativas
+                em, ex, rem, vw, vh, %
+                16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            /* lighter, normal, bold, bolder, 100-900 menor mais fino, maior mais gordo */
+        }
+
+        h1 {
+            /*
+                shorthand font
+                - font-style -> font-weight -> font-size -> font-family
+
+                font-family: 'Work-Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', monospace;
+        }
+
+        h2{
+            font: bold 2em 'monospace';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com títulos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos ullam deleniti voluptatibus quibusdam officia nihil doloribus ex tempore nisi doloremque quam eos, impedit saepe obcaecati dolor expedita vitae repellat Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos ullam deleniti voluptatibus quibusdam officia nihil doloribus ex tempore nisi doloremque quam eos, impedit saepe obcaecati dolor expedita vitae repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos ullam deleniti voluptatibus quibusdam officia nihil doloribus ex tempore nisi doloremque quam eos, impedit saepe obcaecati dolor expedita vitae repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit Similique quos ullam deleniti voluptatibus quibusdam officia nihil doloribus ex tempore nisi doloremque quam eos, impedit saepe obcaecati dolor expedita vitae repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quos ullam deleniti voluptatibus quibusdam officia nihil doloribus ex tempore nisi doloremque quam eos, impedit saepe obcaecati dolor expedita vitae repellat Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam natus perspiciatis nisi quas ratione minima autem? Quidem, consequatur quaerat minus laboriosam tempora voluptates libero dicta eligendi omnis aperiam laudantium quisquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque et alias mollitia. Officia aspernatur nam laboriosam ex ab. Itaque, delectus. Commodi nemo odio aperiam consectetur nobis inventore deserunt placeat delectus?</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsum provident ab et earum beatae, veritatis consequuntur nemo! Quibusdam dolore necessitatibus dolores ex officiis rem molestiae mollitia ipsum blanditiis eos!</p>
+</body>
+</html>
