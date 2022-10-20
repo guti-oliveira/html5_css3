@@ -1,15 +1,27 @@
 body {
-    height: 98vh;
-    background-color: black;
-    background-image: url('./imagens/wallpaper002.jpg');
-    background-repeat: repeat-y;
-    background-position: center center;
-    background-size: cover;
+    background: black url('./imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+
+        /* Shorthand - background 
+
+            Modo correto porem não está funcionando
+
+            color > image > position > repeat > [size] > attachment
+
+            Modo correto adicionando o size em outra linha
+
+            color > image > position > repeat > attachment
+            background-size: cover;
+
+            Modo incorreto de uma linha só
+
+            color > image > position/size > repeat > attachment
+
+        */
 }
 
 main {
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
